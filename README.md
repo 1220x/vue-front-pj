@@ -19,3 +19,21 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+> 安装 element-ui
+
+```
+npm i element-ui -S
+```
+
+> 运行时自动打开浏览器
+
+```
+config文件夹--->index.js--->autoOpenBrowser: true
+```
+
+> 热更新
+
+```
+build文件夹--->webpack.dev.conf.js--->devServe--->hot: true
+```
