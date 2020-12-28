@@ -37,3 +37,23 @@ config文件夹--->index.js--->autoOpenBrowser: true
 ```
 build文件夹--->webpack.dev.conf.js--->devServe--->hot: true
 ```
+
+> 引入sass
+
+```
+npm install sass-loader -D
+npm install node-sass -D
+```
+
+> 使用颜色值变量
+```
+npm install sass-resources-loader --save-dev
+新建.scss文件存放变量值
+```
+
+> 引入全局变量
+
+```
+新建全局样式文件
+app.vue文件中---> style 标签 ---> @import 全局样式文件
+```
