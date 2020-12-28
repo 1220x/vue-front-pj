@@ -1,6 +1,6 @@
 /* 全局公共样式 */
 .color-red {
-    background-color: $bg-red;
+    background-color: #ff0000;
     width: 100px;
     height: 100px;
 }

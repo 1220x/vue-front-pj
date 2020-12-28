@@ -60,12 +60,7 @@ exports.cssLoaders = function (options) {
     postcss: generateLoaders(),
     less: generateLoaders('less'),
     sass: generateLoaders('sass', { indentedSyntax: true }),
-    scss: generateLoaders('sass').concat({
-      loader: 'sass-resources-loader',
-        options: {
-          resources: path.resolve(__dirname, '@style/variables.scss') //这里是建的存放变量的scss
-        }
-    }),
+    scss: generateLoaders('sass'),
     stylus: generateLoaders('stylus'),
     styl: generateLoaders('stylus')
   }
