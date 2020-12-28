@@ -14,7 +14,7 @@ export default {
 
 <style>
 
-/* @import './style/common.scss'; */
+@import './style/common.css';
 
 * {
 	margin: 0;
